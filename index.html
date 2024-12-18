@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Karan Bhatnagar Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Lexend+Deca:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- ========== Start Navbar Section ========== -->
+    <div class="container margin" id="navbar">
+      <div class="row text-center m-2">
+        <div class="col-md-4 m-auto img">
+          <img
+            src="./images/logo-removebg-preview.webp"
+            alt="Karan bhatnagar logo"
+            width="15%"
+          />
+          <div class="menu">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+        <div class="col-md-8 navlist">
+          <ul class="navItems">
+            <li><a href="#">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="#portfolioSection">Portfolio</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <!-- <div class="mobile-navbar">
+        <i class="fa-solid fa-bars"></i>
+        <i class="fa-solid fa-xmark"></i>
+      </div> -->
+    </div>
+    <!-- ========== End Navbar Section ========== -->
+
+    <!-- ========== Start Hero Section ========== -->
+    <div class="container margin" id="heroSection">
+      <div class="row">
+        <div class="col-md-4 m-auto hero-section--content" data-aos="fade-up">
+          <span>This is me</span>
+          <h1>Karan Bhatnagar</h1>
+          <p class="section-common--subheading">
+            I'm Karan Bhatnagar.A frontend developer working as a freelancer.
+          </p>
+
+          <a class="btn btn-info btn-lg hireME" href="#contactSection"
+            >Hire Me</a
+          >
+        </div>
+        <div class="col-md-4 m-auto hero-section--image" data-aos="fade-up">
+          <img
+            src="./images/Profile pic.png"
+            alt="Hero page Karan image"
+            width="100%"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- ========== End Hero Section ========== -->
+    <!-- ========== Start BioData Section ========== -->
+    <div class="container margin" id="bioDataSection">
+      <div class="row">
+        <div class="col-md-4 m-auto bioImage" data-aos="fade-right">
+          <img
+            src="./images/Work experience.webp"
+            alt="Computer animated gif"
+            width="70%"
+            class="bioDataImg zoom"
+          />
+        </div>
+        <div class="col-md-4 m-auto bio-data" data-aos="fade-left">
+          <h2 class="section-common--heading">Bio Data</h2>
+          <p class="section-common--subheading">
+            As a passionate and detail-oriented Front-End Developer with over 2
+            years of experience in building responsive and user-friendly web
+            applications, I thrive on creating seamless user experiences that
+            are both functional and aesthetically pleasing. Proficient in HTML,
+            CSS, and JavaScript.
+          </p>
+          <p class="skill">HTML:</p>
+          <progress value="90" max="100" class="progress"></progress>
+          <p class="skill">Css:</p>
+          <progress value="95" max="100" class="progress"></progress>
+          <p class="skill">Javascript:</p>
+          <progress value="75" max="100" class="progress"></progress>
+          <p class="skill">React.js:</p>
+          <progress value="50" max="100" class="progress"></progress>
+          <div class="downloadBtn">
+            <a href="./source/Resume PDF.pdf" download
+              ><button class="btn btn-info btn-lg mt-5">Download CV</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== End BioData Section ========== -->
+    <!-- ========== Start Portfolio Section ========== -->
+    <div class="container margin" id="portfolioSection">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="section-common--heading">Latest Works</h2>
+          <p class="section-common--subheading">
+            My latest projects and applications using HTML || CSS || Javascript
+          </p>
+        </div>
+        <div class="buttons text-center">
+          <button class="btn btn-info btn-lg application-btn">
+            Applications
+          </button>
+          <button class="btn btn-info btn-lg website-btn">Websites</button>
+        </div>
+      </div>
+      <div class="parent"></div>
+    </div>
+
+    <!-- ========== End Portfolio Section ========== -->
+    <!-- ========== Start Animated counter Section ========== -->
+    <div
+      class="container-fluid align-content-center margin"
+      id="workAnimatedSection"
+    >
+      <div class="row">
+        <div class="col-md-4 text-center">
+          <h2 class="pCounter">50+</h2>
+          <p>Projects</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h2 class="hCounter">7000+</h2>
+          <p>Hours</p>
+        </div>
+        <div class="col-md-4 text-center">
+          <h2 class="cCounter">500+</h2>
+          <p>Cup of coffees</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== End Animated counter Section ========== -->
+
+    <!-- ========== Start Service Section ========== -->
+    <div class="container margin" id="serviceSection">
+      <div class="row margin">
+        <div class="col-md-12">
+          <h1 class="section-common--heading">Services Section</h1>
+        </div>
+        <div class="col-md-12">
+          <p class="section-common--subheading">
+            Creating meaningful brands and websites for small businesses, owners
+            and entrepreneurs
+          </p>
+        </div>
+      </div>
+      <div class="row g-5 services">
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="serviceCard zoom">
+            <div class="profile">
+              <i class="fa-solid fa-chalkboard-user"></i>
+            </div>
+            <div class="card-content">
+              <h3>Web Design</h3>
+              <p class="mx-5">
+                I specialize in responsive design, ensuring that websites look
+                great and function seamlessly across all devices. Creativity
+                focused.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div
+          class="col-md-4 align-self-center d-flex justify-content-center align-items-center"
+        >
+          <div class="serviceCard zoom">
+            <div class="profile">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <div class="card-content">
+              <h3>UI/UX Development</h3>
+              <p class="mx-5">
+                My process involves thorough research, wireframing, prototyping,
+                and user testing to ensure that each design functions
+                effectively.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="serviceCard zoom">
+            <div class="profile">
+              <i class="fa-solid fa-photo-film"></i>
+            </div>
+            <div class="card-content">
+              <h3>Photo Editing</h3>
+              <p class="mx-5">
+                Hello! I'm an AI-powered photo editor, designed to assist you in
+                enhancing, retouching, and transforming your images
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="serviceCard zoom">
+            <div class="profile">
+              <i class="fa-solid fa-video"></i>
+            </div>
+            <div class="card-content">
+              <h3>Video Editing</h3>
+              <p class="mx-5">
+                Hello! I'm a passionate video editor with expertise in
+                transforming raw footage and animations into engaging visual
+                stories.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="serviceCard zoom">
+            <div class="profile">
+              <i class="fa-solid fa-chalkboard-user"></i>
+            </div>
+            <div class="card-content">
+              <h3>Web Development</h3>
+              <p class="mx-5">
+                I stay updated on the latest web development trends and best
+                practices to deliver high-quality solutions that meet users'
+                needs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 d-flex justify-content-center align-items-center">
+          <div class="serviceCard zoom">
+            <div class="profile">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <div class="card-content">
+              <h3>Web Desgin</h3>
+              <p class="mx-5">
+                I stay updated on the latest web development trends and best
+                practices to deliver high-quality solutions that meet users'
+                needs.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== End Service Section ========== -->
+    <!-- ========== Start Swiper Section ========== -->
+    <div class="container margin" id="swiperSection">
+      <div class="row">
+        <div class="col-md-12 margin">
+          <p class="section-common--heading">Testimonial Section</p>
+          <p class="section-common--subheading">
+            It is just to display swiper animation. All the below testimonials
+            are imaginary
+          </p>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <!-- Slider 1 -->
+            <div class="swiper-slide">
+              <!-- Slider Card -->
+              <div class="row userBox">
+                <div class="col-md-6">
+                  <p class="testimony">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit, adipisci!
+                  </p>
+                </div>
+                <div class="col-md-2 customerPic">
+                  <img src="./images/Profile pic.png" />
+                </div>
+              </div>
+              <div class="row userBox">
+                <div class="col-md-6">
+                  <p class="testimony">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit, adipisci!
+                  </p>
+                </div>
+                <div class="col-md-2 customerPic">
+                  <img src="./images/Profile pic.png" />
+                </div>
+              </div>
+            </div>
+            <!-- Slider 2 -->
+            <div class="swiper-slide">
+              <!-- Slider Card -->
+              <div class="row userBox">
+                <div class="col-md-6">
+                  <p class="testimony">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit, adipisci!
+                  </p>
+                </div>
+                <div class="col-md-2 customerPic">
+                  <img src="./images/Profile pic.png" />
+                </div>
+              </div>
+              <div class="row userBox">
+                <div class="col-md-6">
+                  <p class="testimony">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit, adipisci!
+                  </p>
+                </div>
+                <div class="col-md-2 customerPic">
+                  <img src="./images/Profile pic.png" />
+                </div>
+              </div>
+            </div>
+            <!-- Slider 3 -->
+            <div class="swiper-slide">
+              <!-- Slider Card -->
+              <div class="row userBox">
+                <div class="col-md-6">
+                  <p class="testimony">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit, adipisci!
+                  </p>
+                </div>
+                <div class="col-md-2 customerPic">
+                  <img src="./images/Profile pic.png" />
+                </div>
+              </div>
+              <div class="row userBox">
+                <div class="col-md-6">
+                  <p class="testimony">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit, adipisci!
+                  </p>
+                </div>
+                <div class="col-md-2 customerPic">
+                  <img src="./images/Profile pic.png" />
+                </div>
+              </div>
+            </div>
+            <!-- Slider 4 -->
+            <div class="swiper-slide">
+              <div class="row userBox">
+                <div class="col-md-6">
+                  <p class="testimony">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit, adipisci!
+                  </p>
+                </div>
+                <div class="col-md-2 customerPic">
+                  <img src="./images/Profile pic.png" />
+                </div>
+              </div>
+              <div class="row userBox">
+                <div class="col-md-6">
+                  <p class="testimony">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit, adipisci!
+                  </p>
+                </div>
+                <div class="col-md-2 customerPic">
+                  <img src="./images/Profile pic.png" />
+                </div>
+              </div>
+            </div>
+            <!-- Slider 5 -->
+            <div class="swiper-slide">
+              <!-- Slider Card -->
+              <div class="row userBox">
+                <div class="col-md-6">
+                  <p class="testimony">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit, adipisci!
+                  </p>
+                </div>
+                <div class="col-md-2 customerPic">
+                  <img src="./images/Profile pic.png" />
+                </div>
+              </div>
+              <div class="row userBox">
+                <div class="col-md-6">
+                  <p class="testimony">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Reprehenderit, adipisci!
+                  </p>
+                </div>
+                <div class="col-md-2 customerPic">
+                  <img src="./images/Profile pic.png" />
+                </div>
+              </div>
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== End Swiper Section ========== -->
+    <!-- ========== Start Freelancer Section ========== -->
+    <div class="container-fluid margin" id="freelanceSection">
+      <div class="row">
+        <div class="col text-center p-5">
+          <p class="section-common--heading">
+            I am <span>available</span> for freelancing
+          </p>
+
+          <a class="btn btn-info btn-lg" href="#contactSection">Hire Me</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== End Freelancer Section ========== -->
+    <!-- ========== Start Contact us Section ========== -->
+    <div class="container margin" id="contactSection">
+      <div class="row">
+        <div class="col-12">
+          <p class="section-common--heading">Contact Us</p>
+        </div>
+        <div class="col-12 margin">
+          <p class="section-common--subheading">
+            I'm always excited to collaborate on new projects, answer questions,
+            or just connect. Whether you're looking for a designer, developer,
+            or just want to chat about your ideas, feel free to reach out!
+          </p>
+        </div>
+
+        <form action="https://formspree.io/f/mldelzva" method="POST">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="row g-3">
+                <div class="col-md-6">
+                  <label for="nameInput"></label>
+                  <input
+                    type="username"
+                    name="text"
+                    id="nameInput"
+                    placeholder="Name"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+                <div class="col-md-6">
+                  <label for="emailInput"></label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="emailInput"
+                    placeholder="Email"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+                <div class="col-md-12">
+                  <label for="subjectInput"></label>
+                  <input
+                    type="text"
+                    name="subject"
+                    id="subjectInput"
+                    placeholder="Subject"
+                    autocomplete="off"
+                    required
+                  />
+                </div>
+                <div class="col-md-12">
+                  <label for="textArea"></label>
+                  <textarea
+                    id="textArea"
+                    name="message"
+                    placeholder="Message"
+                    rows="5"
+                    cols="50"
+                    autocomplete="off"
+                    required
+                  ></textarea>
+                </div>
+                <div class="col-md-12 centerDiv">
+                  <input
+                    type="submit"
+                    name="submit"
+                    id="submit"
+                    class="btn btn-info btn-lg"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- ========== End Contact us Section ========== -->
+    <!-- ========== Start Footer Section ========== -->
+    <section id="footerSection">
+      <div class="container">
+        <div class="row p-5">
+          <div class="col-md-3 p-5">
+            <h2>About</h2>
+            <p>
+              With a strong foundation in front-end and back-end technologies,
+              I’m constantly learning new tools and frameworks to stay ahead in
+              the fast-evolving world of web development.
+            </p>
+          </div>
+          <div class="col-md-3 p-5">
+            <h2>Links</h2>
+            <ul>
+              <li><a href="" target="_blank">Home</a></li>
+              <li><a href="" target="_blank">About</a></li>
+              <li><a href="" target="_blank">Services</a></li>
+              <li><a href="" target="_blank">Portfolio</a></li>
+              <li><a href="" target="_blank">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 p-5">
+            <h2>Skills</h2>
+            <ul>
+              <li><a href="" target="_blank">HTML</a></li>
+              <li><a href="" target="_blank">CSS(Bootstrap, Talwind)</a></li>
+              <li><a href="" target="_blank">JAVASCRIPT</a></li>
+              <li><a href="" target="_blank">REACT.JS</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 p-5">
+            <h2>Have a Question?</h2>
+            <div class="contactFlex">
+              <div class="logoDetail">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Jodhpur, Rajasthan</p>
+              </div>
+              <div class="logoDetail">
+                <i class="fa-solid fa-phone"></i>
+                <p>9829760022</p>
+              </div>
+              <div class="logoDetail">
+                <i class="fa-solid fa-envelope"></i>
+                <p>karanbhatnagar862@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mb-5">
+          <div class="socialMedia">
+            <a
+              href="https://www.instagram.com/karan_bhatnagar_/?hl=en"
+              target="_blank"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a
+              href="www.linkedin.com/in/karan-bhatnagar-b9aa841a0"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://github.com/karanBhatnagar29" target="_blank">
+              <i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col text-center copyright">
+            <p class="fs-3">
+              Copyright 2024 <i class="fa-solid fa-copyright"></i> All rights
+              reserved | Made with <i class="fa-solid fa-heart"></i> by Karan
+              Bhatnagar
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="scrollToTop"><i class="fa-solid fa-arrow-up"></i></button>
+    </section>
+
+    <!-- ========== End Footer Section ========== -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+    <script src="./js/index.js"></script>
+  </body>
+</html>
